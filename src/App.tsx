@@ -194,7 +194,7 @@ function App() {
                 <p>A evolução do seu negócio</p>
               </div>
             </div>
-            <a href="#produtos"> Conhecer os produtos</a>
+            <a href="#products"> Conhecer os produtos</a>
           </section>
 
           <section id="iscas">
@@ -244,7 +244,7 @@ function App() {
                     Fazemos um diagnóstico das suas características e sugerimos
                     investimentos específicos para o seu perfil.
                   </p>
-                  <a href="">Ter um atendimento personalizado</a>
+                  <a href="#products">Ter um atendimento personalizado</a>
                 </div>
                 <img
                   src="https://static.wixstatic.com/media/c470d0_82538e684bc44e86a538a5363a3d7889~mv2.png/v1/fill/w_400,h_400,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c470d0_82538e684bc44e86a538a5363a3d7889~mv2.png"
@@ -288,7 +288,7 @@ function App() {
                     o seu tempo e dinheiro, com os primeiros desafios do mercado
                     financeiro.
                   </p>
-                  <a href="">Poupar meus recursos</a>
+                  <a href="#products">Poupar meus recursos</a>
                 </div>
               </div>
             ) : (
@@ -308,7 +308,7 @@ function App() {
                     o seu tempo e dinheiro, com os primeiros desafios do mercado
                     financeiro.
                   </p>
-                  <a href="">Poupar meus recursos</a>
+                  <a href="#products">Poupar meus recursos</a>
                 </div>
               </div>
             )}
@@ -338,7 +338,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <a href="">Dar um up no lifestyle</a>
+              <a href="#products">Dar um up no lifestyle</a>
             </div>
           </section>
           <section id="confidence">
