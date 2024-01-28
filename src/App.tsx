@@ -364,8 +364,6 @@ function App() {
               </div>
               <video
                 src={livCampanha}
-                autoPlay={true}
-                loop={true}
                 muted={false}
                 controls={true}
                 className="campanha"

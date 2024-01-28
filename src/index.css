@@ -642,6 +642,7 @@ form input:nth-child(8):hover {
 .campanha {
   width: 700px;
   height: 370px;
+  border-radius: 0.5rem;
 }
 
 .profiles {
@@ -1052,6 +1053,7 @@ footer p {
   .campanha {
     width: 370px;
     height: 270px;
+    border: none;
   }
   #calc .calc-iframe {
     display: flex;
