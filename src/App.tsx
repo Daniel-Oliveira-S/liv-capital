@@ -88,9 +88,8 @@ function App() {
   const url = new URL(window.location.href);
   url.href = url.href.replace(/#.*$/, ""); // Remova o hash
   window.location.hash = ""; // Remova o hash
-
+  window.history.replaceState("", "", url.href);
   // Use o método history.replaceState para atualizar a URL sem recarregar a página
-  window.history.replaceState({}, "", url.toString());
   return (
     <>
       <body>
