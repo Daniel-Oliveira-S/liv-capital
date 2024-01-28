@@ -6,6 +6,7 @@ import {
 } from "@phosphor-icons/react";
 import "./index.css";
 import { useEffect, useState } from "react";
+import livCampanha from "./assets/liv-campanha.mp4";
 
 function App() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -361,12 +362,14 @@ function App() {
                   <p>Devidamente registrada na CVM</p>
                 </div>
               </div>
-              <iframe
+              <video
+                src={livCampanha}
+                autoPlay={true}
+                loop={true}
+                muted={false}
+                controls={true}
                 className="campanha"
-                src="https://www.youtube.com/embed/aXpzRUI5IEY"
-                title="Campanha BTG Pactual + LIV Capital"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"
-              ></iframe>
+              ></video>
               <p>
                 Além disso, nossos sócios são especializados no mercado
                 financeiro
