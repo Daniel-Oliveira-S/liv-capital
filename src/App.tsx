@@ -40,7 +40,7 @@ function App() {
       title: "Onde Investir em 2024.",
       class: "slide-prev",
       btn: "Acesse e baixe agora",
-      href: "https://docs.google.com/forms/d/e/1FAIpQLSc-5XnR2DD5fLctUELg74KIt-qU1BilPV4tA68Ny_KywBmAsQ/viewform",
+      href: "https://liv-capital.ondeinvestir.live/?utm_source=livcapital&utm_medium=livcapial-banner&utm_campaign=livcapital-onde_investir_24",
       text: "As principais ações, fundos imobiliários e títulos de renda pública, segundo especialistas do BTG. ",
       text2: "Controle suas finanças e tome decisões de investimento.",
     },
@@ -50,7 +50,7 @@ function App() {
         "Aprenda a investir em fundos imobiliários com o BTG Pactual e a LIV Capital.",
       class: "slide",
       btn: "Increva-se agora",
-      href: "https://docs.google.com/forms/d/e/1FAIpQLScRi9QdqZfYRFaHw3GrSyWH15OvncM_zi7zSIrQRnucSE804Q/viewform",
+      href: "https://typebot.co/typebot-liv-curso-fiis",
     },
 
     {
@@ -59,7 +59,7 @@ function App() {
         "Teste diferentes estratégias de investimento com o simulador BTG Pactual e LIV Capital.",
       class: "slide-next",
       btn: "Experimente agora",
-      href: "https://liv-capital.ondeinvestir.live/?utm_source=livcapital&utm_medium=livcapial-banner&utm_campaign=livcapital-onde_investir_24",
+      href: "https://typebot.co/typebot-liv-curso-fiis",
     },
     // Add as many slides as you want
   ];
@@ -84,12 +84,7 @@ function App() {
       return newSlide;
     });
   };
-  // Crie um novo objeto URL com a URL atual
-  const url = new URL(window.location.href);
-  url.href = url.href.replace(/#.*$/, ""); // Remova o hash
-  window.location.hash = ""; // Remova o hash
-  window.history.replaceState("", "", url.href);
-  // Use o método history.replaceState para atualizar a URL sem recarregar a página
+  window.location.hash = "/"; // Remova o hash
   return (
     <>
       <body>
@@ -159,7 +154,7 @@ function App() {
                   <label htmlFor="">Nome</label>
                   <input type="text" name="Nome" />
                   <label htmlFor="">Whatsapp</label>
-                  <input type="tel" name="tel" />
+                  <input type="tel" name="telefone" />
                   <label htmlFor="">Email</label>
                   <input type="email" name="email" />
                   <label htmlFor=""></label>
