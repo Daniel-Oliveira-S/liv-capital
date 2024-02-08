@@ -84,7 +84,6 @@ function App() {
       return newSlide;
     });
   };
-  window.location.hash = "/"; // Remova o hash
   return (
     <>
       <body>
@@ -130,40 +129,10 @@ function App() {
                   <br />
                   com a assessoria particular da LIV Capital
                 </p>
-                <form
-                  action="https://formsubmit.co/danielsouzaoliveira.contato@gmail.com"
-                  method="POST"
-                  id="head-form"
-                >
-                  <input type="hidden" name="_captcha" value="false"></input>
-                  <input
-                    type="text"
-                    name="_honey"
-                    style={{ display: "none" }}
-                  ></input>
-                  <input
-                    type="hidden"
-                    name="_next"
-                    value="https://www.sejaliv.com.br"
-                  ></input>
-                  <input
-                    type="hidden"
-                    name="_cc"
-                    value="felipe.moraes@liv.capital,rafael.plens@liv.capital,camilabritoribeiro.marketing@gmail.com"
-                  ></input>
-                  <label htmlFor="">Nome</label>
-                  <input type="text" name="Nome" />
-                  <label htmlFor="">Whatsapp</label>
-                  <input type="tel" name="telefone" />
-                  <label htmlFor="">Email</label>
-                  <input type="email" name="email" />
-                  <label htmlFor=""></label>
-                  <input
-                    type="submit"
-                    className="submit"
-                    value="Aumentar minha renda"
-                  />
-                </form>
+                <iframe
+                  className="form"
+                  src="https://typebot.co/my-typebot-fx2qybj"
+                ></iframe>
               </div>
               <img
                 src="https://static.wixstatic.com/media/c470d0_08bd659a8695409fa3ded96db08e2595~mv2.jpg/v1/crop/x_1820,y_0,w_4592,h_4667/fill/w_492,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/casal-adulto-lindo-feliz-sentado-no-lado-do-iate-assistindo-na-beira-mar-e-abracando-enqua.jpg"
