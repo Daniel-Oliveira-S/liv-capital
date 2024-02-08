@@ -147,7 +147,6 @@ input:hover {
 
 #form-content .text-container p {
   color: var(--text-bg-black);
-  margin-left: -2rem;
 }
 .text-container {
   display: flex;
@@ -826,10 +825,14 @@ footer p {
     width: 100%;
   }
 
+  .text-container p {
+    width: 90%;
+  }
+
   .form {
-    width: 100%;
+    width: 300px;
     height: 700px;
-    margin-right: 2rem;
+    margin-right: 7rem;
   }
 
   #services-content {
