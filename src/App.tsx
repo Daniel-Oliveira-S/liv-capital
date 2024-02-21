@@ -123,7 +123,7 @@ function App() {
         <main>
           <section id="form">
             <div id="form-content" className="container">
-              <div className="text-container">
+              <div className="form-container">
                 <h1>Aumente sua renda & Estilo de vida</h1>
                 <p>
                   Faça o seu dinheiro trabalhar para você
