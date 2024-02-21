@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.0.15",
+    "dotenv": "^16.4.1",
+    "facebook-nodejs-business-sdk": "^19.0.0",
+    "node": "^21.6.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

@@ -84,6 +84,7 @@ function App() {
       return newSlide;
     });
   };
+
   return (
     <>
       <body>
@@ -129,10 +130,20 @@ function App() {
                   <br />
                   com a assessoria particular da LIV Capital
                 </p>
-                <iframe
-                  className="form"
-                  src="https://typebot.co/my-typebot-fx2qybj"
-                ></iframe>
+                <form action="" method="post">
+                  <label htmlFor="">
+                    Nome*
+                    <input type="text" name="Nome" required />
+                  </label>
+                  <label htmlFor="">
+                    Whatsapp*
+                    <input type="tel" name="telefone" required />
+                  </label>
+                  <label htmlFor="">
+                    Email*
+                    <input type="email" name="email" required />
+                  </label>
+                </form>
               </div>
               <img
                 src="https://static.wixstatic.com/media/c470d0_08bd659a8695409fa3ded96db08e2595~mv2.jpg/v1/crop/x_1820,y_0,w_4592,h_4667/fill/w_492,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/casal-adulto-lindo-feliz-sentado-no-lado-do-iate-assistindo-na-beira-mar-e-abracando-enqua.jpg"
