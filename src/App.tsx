@@ -27,7 +27,7 @@ function App() {
   useEffect(() => {
     const timer = setInterval(nextSlide, 8000); // Change slide every 10 seconds
     return () => clearInterval(timer); // Clear timer on component unmount
-  });
+  }, []);
 
   const element = document.querySelector(".slide");
 
